@@ -349,9 +349,6 @@ footer .offer{
         box-sizing: border-box;
         padding: 100px;
     }
-    .main3-header{
-
-    }
     .cs-img{
     height: 357px;
     }
@@ -368,15 +365,14 @@ footer .offer{
     .travel h2{
         font-size: 60px;
         margin-bottom: 50px;
-        line-height: 70px;
+        line-height: 49px;
+
     }
     .travel p{
         font-size: 20px;
+        display: flex;
     }
-    .travel-img img{
-
-    
-    }
+ 
     
     .documentation{
         display: flex;
@@ -384,10 +380,7 @@ footer .offer{
         justify-content: center;
         align-items: center;
     }
-    .fourth-section{
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-    }
+    
     .fourth-section h3{
         /* width: 550px; */
         font-size: 50px;
@@ -419,6 +412,29 @@ footer .offer{
     .offermainimg img{
         margin-left: 0px;
     }
+}
+
+@media (min-width: 1024px){
+    .main3-header{
+        width: 1024px;
+        height: 1070px;
+        
+    }
+    .pos-1{
+        width: 1072px;
+        height: 655px;
+    }
+    .pos-2{
+        width: 50%;
+        transform: translateY(60%);
+    }
+    .pos-3{
+        width: 53.3%;
+    }
+    .destination{
+        margin-top: 25%;
+    }
+
 }
 
 
